@@ -1,0 +1,67 @@
+body{
+    background-color:;
+}
+p {
+    color: green;
+    font-size: 29px;
+}
+
+#test
+{
+    background-color: grey;
+}
+
+.text
+{
+    color: #CD853F;
+    font-size: 42px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-weight: 900;
+    background-color: #191970;
+    width: 50%;
+    height: 100px;
+    border-color: deeppink;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+}
+
+div
+{
+    width: 100px;
+    height: 100px;
+    background-color: #191970;
+    border-radius: 50%;
+    position: relative;
+    top: 250px;
+    left: 250px;
+    transition: 500ms;
+}
+
+h1::first-letter
+{
+    color: deeppink;
+    font-size: 50px;
+    border-radius: 10px;
+    background-color: bisque;
+}
+
+div:hover
+{
+    width: 150px;
+    height: 150px;
+    background-color: crimson;
+    transition: 500ms;
+}
+
+a:link {
+    color: deeppink;
+}
+
+a:visited {
+    color: olivedrab;
+}
+
+a:active{
+    color: royalblue;
+}

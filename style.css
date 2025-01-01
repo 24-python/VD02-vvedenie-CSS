@@ -1,28 +1,25 @@
-body{
-    background-color: red;
-}
-p {
-    color: green;
-    font-size: 29px;
+.card{
+   width: 400px;
+   height: 650px;
+   background-color: burlywood;
+   border-radius: 60px;
 }
 
-#test
+.photo
 {
-    background-color: grey;
-}
-
-.text
+   height: 40%;
+   padding: 40px;
+   }
+.info
 {
-    color: #CD853F;
-    font-size: 42px;
-    font-family: Comic Sans MS, Comic Sans, cursive;
-    font-weight: 900;
-    background-color: #191970;
-    width: 50%;
-    height: 100px;
-    border-color: deeppink;
-    border-style: solid;
-    border-width: 5px;
+      padding: 40px;
 
+}
+img
+{
+   height: 100%;
+   position: relative;
+   left:17%;
+   border-radius: 20px;
 
 }
